@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+@keyframes spin {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+.spinning-word {
+    display: inline-block;
+    font-size: 24px;
+    animation: spin 2s linear infinite;
+}
+</style>
+</head>
+<body>
+    <div class="spinning-word">Water</div>
+</body>
+</html>
